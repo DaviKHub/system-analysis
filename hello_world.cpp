@@ -4,6 +4,6 @@ int main() {
     std::string name;
     std::cout<<"Enter your name";
     std::cin>>name;
-    std::cout << "Hello, World!\n";
+    std::cout << "Hello " << name << "!\n"; //greet the user used entered name
     return 0;
 }
